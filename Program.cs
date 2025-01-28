@@ -31,7 +31,7 @@ Console.WriteLine($"The range of integers is {min} to {max}");
 int what = max + 3;
 Console.WriteLine($"An example of overflow: {what}");*/
 
-// Step 4
+/* Step 4
 decimal min = decimal.MinValue;
 decimal max = decimal.MaxValue;
 Console.WriteLine($"The range of the decimal type is {min} to {max}");
@@ -42,4 +42,9 @@ Console.WriteLine(a / b);
 
 decimal c = 1.0M;
 decimal d = 3.0M;
-Console.WriteLine(c / d);
+Console.WriteLine(c / d);*/
+
+// Step 5
+double radius = 2.50;
+double area = Math.PI * radius * radius;
+Console.WriteLine(area);
